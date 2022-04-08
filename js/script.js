@@ -67,13 +67,31 @@ const cats = [
 
 //list();
 
-
-
 //console.log(list);
 
 
-
 // Question 8
+
+const catContainer = document.querySelector(".cat-container");
+
+console.dir(catContainer);
+
+let html = "";
+
+for(let i = 0; i < cats.length; i++) {
+    console.log(cats[i]);
+
+    //html = html + "<h5>" + cats[i].name + "</h5>";
+    html += `<div>
+            <h5>${cats[i].name}</h5>
+            <p>Age: ${cats[i].age}
+            </div>
+            `;
+
+    console.log(html);
+}
+
+catContainer.innerHTML = html;
 
 //const createCats = cats;
 
