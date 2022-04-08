@@ -43,3 +43,41 @@ const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = "<p>New paragraph</p>";
 resultsContainer.style.background = "yellow";
 
+// Question 7
+
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+
+];
+
+
+//function list() {
+//    for(let i = 0; i < list; i++);
+//}
+
+//list();
+
+
+
+//console.log(list);
+
+
+
+// Question 8
+
+//const createCats = cats;
+
+//console.log(cats);
+
+
+
